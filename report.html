@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Module</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    .navbar { background: #333; color: #fff; overflow: hidden; padding: 0; margin: 0; list-style-type: none; }
+    .navbar li { float: left; }
+    .navbar li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+    .navbar li a:hover { background-color: #ddd; color: black; }
+    .container { padding: 20px; margin-top: 50px; background: white; }
+    .header { color: #333366; padding-bottom: 10px; border-bottom: 2px solid #333366; }
+    .content { margin-top: 20px; }
+    .button { background-color: #008CBA; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
+    .button:hover { background-color: #007B9A; }
+    .report-card { background: #E8E8E8; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .report-card h3 { color: #333; }
+  </style>
+</head>
+<body>
+
+<!-- Shared Navigation Bar -->
+<ul class="navbar">
+  <li><a href="#home">Home</a></li>
+  <li><a href="detection.html">Detection Module</a></li>
+  <li><a href="report.html">Report Module</a></li>
+  <li><a href="prediction.html">Prediction Yield Module</a></li>
+</ul>
+
+<!-- Report Module Content -->
+<div class="container">
+  <h1 class="header">Report Module</h1>
+  <div class="content">
+    <div class="report-card">
+      <h3>Monthly Pineapple Grading Report</h3>
+      <p>Summary of grades for the current month.</p>
+      <button class="button">View Report</button>
+      <button class="button">Download PDF</button>
+    </div>
+
+    <div class="report-card">
+      <h3>Yearly Pineapple Grading Report</h3>
+      <p>Comprehensive annual report of pineapple grading statistics.</p>
+      <button class="button">View Report</button>
+      <button class="button">Download Excel</button>
+    </div>
+
+    <!-- Additional report cards as needed -->
+  </div>
+</div>
+
+</body>
+</html>

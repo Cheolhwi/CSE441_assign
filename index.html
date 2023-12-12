@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Pineapple Grading System</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+        .navbar { background: #333; color: #fff; overflow: hidden; padding: 0; margin: 0; list-style-type: none; }
+        .navbar li { float: left; }
+        .navbar li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+        .navbar li a:hover { background-color: #ddd; color: black; }
+        .container { padding: 20px; margin-top: 50px; background: white; }
+        .header { color: #333366; margin-bottom: 30px; }
+        .dashboard-card { background: #E8E8E8; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .dashboard-card h3 { color: #333; margin-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-gap: 20px; }
+        .grid-item { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .grid-item h4 { color: #333366; }
+        .flex { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .welcome-message { font-size: 1.5em; color: #333366; }
+        .overview { padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+<!-- Shared Navigation Bar -->
+<ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="detection.html">Detection Module</a></li>
+    <li><a href="report.html">Report Module</a></li>
+    <li><a href="prediction.html">Prediction Yield Module</a></li>
+</ul>
+
+<!-- Home Page Content -->
+<div class="container">
+    <div class="header">
+        <div class="welcome-message">Good Morning, User.</div>
+        <div class="overview">
+            <h3>Overview</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <h4>Latest Reports</h4>
+                    <!-- Latest reports summary -->
+                </div>
+                <div class="grid-item">
+                    <h4>Predictions</h4>
+                    <!-- Predictions summary -->
+                </div>
+                <div class="grid-item">
+                    <h4>System Health</h4>
+                    <!-- System health summary -->
+                </div>
+                <!-- Additional items as needed -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
